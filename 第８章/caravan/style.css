@@ -139,7 +139,7 @@ main {
   line-height: 0.6;
 }
 
-.sidebar-content {
+.sidebar-contents {
   padding: 50px 0;
 }
 
@@ -163,27 +163,48 @@ main {
   background-position: center;
 }
 
-.instgram-box:nyh-child(odd) {
+.instagram-box:nth-child(odd) {
   margin: 0 10px 10px 0;
 }
 
 .instagram-box:nth-child(1) {
   background-image: url(img/airport.jpg);
 }
+
 .instagram-box:nth-child(2) {
   background-image: url(img/japan.jpg);
 }
+
 .instagram-box:nth-child(3) {
   background-image: url(img/snow.jpg);
 }
+
 .instagram-box:nth-child(4) {
   background-image: url(img/japan2.jpg);
 }
+
 .instagram-box:nth-child(5) {
   background-image: url(img/lake.jpg);
 }
+
 .instagram-box:nth-child(6) {
   background-image: url(img/road.jpg);
+}
+
+.pagination {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pagination p {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  color: #fff;
+  background-color: #acabab;
+  border-radius: 3px;
+  margin: 0 5px;
+  line-height: 30px;
 }
 
   /*footrer部分*/
