@@ -238,7 +238,7 @@ footer {
 }
 
 /*media queries*/
-@media screen and (max-width: 425px) {
+/*@media screen and (max-width: 425px) {
   header {
     width: 100%;
   }
@@ -263,9 +263,9 @@ footer {
   .sidebar {
     float: none;
   }
-}
+}*/
 
-/*@media screen and (max-width:425px) {
+@media screen and (max-width:425px) {
   header {
     width: 100%;
   }
@@ -315,4 +315,3 @@ footer {
   .pagination {
    margin-bottom: 50px;
   }}
-*/
